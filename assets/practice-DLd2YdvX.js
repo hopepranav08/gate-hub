@@ -1,0 +1,1 @@
+const e="gh:practice";function c(t){try{sessionStorage.setItem(e,JSON.stringify(t))}catch{}}function r(){try{const t=sessionStorage.getItem(e);return t?JSON.parse(t):null}catch{return null}}function s(){try{sessionStorage.removeItem(e)}catch{}}export{s as c,r as l,c as s};
